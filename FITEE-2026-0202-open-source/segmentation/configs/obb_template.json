@@ -1,0 +1,23 @@
+{
+  "method": "quantile",
+  "params": {
+    "target_pin_frac": 0.425,
+    "b4_base_box_enable": true,
+    "b4_base_box_margin_m": 0.0,
+    "b4_box_force_outside_pin": true,
+    "b4_reg_enable": true,
+    "b4_reg_require_success": true,
+    "b4_reg_max_retries": 20,
+    "b4_reg_rmse_gate_mm": 0.6,
+    "b4_reg_use_gpu_icp": true,
+    "b4_reg_cpu_workers": 8,
+    "b4_reg_parallel_ransac": true,
+    "b4_reg_min_base_points": 200,
+    "b4_reg_max_target_points": 60000,
+    "b4_reg_seed": 20260214,
+    "b4_reg_template_path": "private_inputs/template.ply",
+    "b4_reg_template_base_key": "scalar_base",
+    "b4_reg_template_pin_key": "scalar_pin",
+    "b4_base_boxes_m": []
+  }
+}

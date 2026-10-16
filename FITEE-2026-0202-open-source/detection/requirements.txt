@@ -1,0 +1,8 @@
+# Functional dependencies; not a historical lockfile.
+numpy
+scipy
+open3d==0.19.0
+pandas
+scikit-learn
+matplotlib
+lightgbm

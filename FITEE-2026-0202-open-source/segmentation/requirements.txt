@@ -1,0 +1,9 @@
+# Install torch and PyG extensions from mutually compatible upstream wheels.
+numpy
+scipy
+pandas
+scikit-learn
+open3d==0.19.0
+torch
+torch-geometric
+torch-cluster

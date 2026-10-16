@@ -1,0 +1,12 @@
+{
+  "route": "A4_rgb_plus_density_feature",
+  "density_k": 4,
+  "density_k2": 32,
+  "positive_class_weight": 0.75,
+  "dropblock_p": 0.05,
+  "target_pin_frac": 0.425,
+  "postprocess": "reg_obb_only",
+  "block_points": 4096,
+  "sor_nb_neighbors": 50,
+  "sor_std_ratio": 1.5
+}
